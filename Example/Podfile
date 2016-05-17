@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'prom_pod_Example' do
+  pod 'prom_pod', :path => '../'
+
+  target 'prom_pod_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+  pod 'FBSnapshotTestCase'
+  pod 'Nimble-Snapshots'
+  end
+end

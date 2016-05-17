@@ -1,0 +1,19 @@
+{
+  "name": "prom_pod",
+  "version": "0.1.0",
+  "summary": "A short description of prom_pod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/prom_pod",
+  "license": "MIT",
+  "authors": {
+    "Aaron Smith": "aaron@mybasis.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/prom_pod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "prom_pod/Classes/**/*"
+}
